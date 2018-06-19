@@ -5,7 +5,8 @@ if (multiprocessor?) then (yes)
   fork
     :Treatment 1;
   fork again
-    :Treatment 2;
+    :Treatment 2a;
+    :Treatment 2b;
   end fork
 else (monoproc)
   :Treatment 1;
